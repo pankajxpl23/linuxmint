@@ -1,1 +1,9 @@
+sudo apt-get install build-essential
+sudo apt-get install linux-generic
+sudo apt-get install linux-headers-`uname -r`
+
+tar -xjvf r8168-8.049.02.tar.bz2
+cd r8168-8.049.02
+sudo sh ./autorun.sh
+
 https://www.realtek.com/en/directly-download?downloadid=38ca49c5da844ee569793f38d6991c1e
